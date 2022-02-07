@@ -1,0 +1,117 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    max-width: 100%;
+    background-color: black;
+}
+
+#wrapper{
+    margin: 0 auto;
+    display: inline-block;
+    width: 600px;
+    align-content: center;
+}
+#playfield{
+    width: 200px;
+    height: 400px;
+    border: 10px rgb(182, 182, 182) ridge;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-right: 250px;
+
+}
+
+#headerText{
+    margin: 25px auto 50px auto;
+    color: white;
+
+}
+.square{
+    margin: 0;
+    padding-top: 0;
+    outline: 1px solid rgba(241, 241, 241, 0.884);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    font-size: 7px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: black;
+}
+
+#holdingWindow{
+    color: white;
+    background-color: black;
+    border: 10px rgb(182, 182, 182) ridge;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    float: left;
+    clear: left;
+    margin-left: 0px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+#next{
+    float: right;
+    clear: right;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color:white;
+    border: 10px rgb(182, 182, 182) ridge;
+    padding: 10px;
+    margin-top: -400px;
+    margin-right: 120px;
+}
+
+#inputDisplay{
+    float: right;
+    clear: right;
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    color: rgba(255, 255, 255, .3);
+    border: 10px rgb(182, 182, 182) ridge;
+    padding: 15px;
+    margin-right: 90px;
+    margin-top: -70px;
+    text-align: center;
+    
+
+}
+
+#arrows{
+    width: 70%;
+    float: left;
+    margin: 0;
+    margin-top: -10px;
+    margin-left: -5px;
+}
+
+#arrows i{
+    margin-left: -10px;
+}
+
+#otherControls{
+    width: 30%;
+    float: right;
+    margin-top: -10px;
+    margin-right: 0;
+
+}
+
+#left{
+    margin-left: 10px;
+ 
+}
+
+#right{
+    margin-right: 30px;
+}

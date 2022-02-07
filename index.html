@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>NotTetris Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1 id="headerText">NOT Tetris please don't sue me</h1>
+    <div id="wrapper">
+        <div id="holdingWindow">HELD:</div>
+        <div id="playfield"></div>
+        <div id="next">NEXT:</div>
+        <div id="inputDisplay">
+            <div id="arrows">
+                <i class="fas fa-arrow-alt-circle-up fa-sm"></i>
+                <br>
+                <i class="fas fa-arrow-alt-circle-left fa-sm"></i>
+                <i class="fas fa-arrow-alt-circle-down fa-sm"></i>
+                <i class="fas fa-arrow-alt-circle-right fa-sm"></i>
+            </div>
+            <div id="otherControls">
+            <i id="left" class="fas fa-dot-circle"></i>
+            <i id="right" class="far fa-dot-circle"></i>
+            </div>
+        </div>
+    </div>
+    <div id="buttons">
+        <button id="buttonLeft" type="button">MOVE LEFT</button>
+        <button id="buttonDown" type="button">MOVE DOWN</button>
+        <button id="buttonRight" type="button">MOVE RIGHT</button>
+        <br>
+        <button id="rotateLeft" type="button">ROTATE LEFT</button>
+        <button id="rotateRight" type="button">ROTATE RIGHT</button>
+        <br>
+        <button id="gravity" type="button">ENABLE GRAVITY</button>
+    </div>
+    
+<script src="index.js"></script>
+</body>
