@@ -21,9 +21,9 @@ function createPlayfieldGrid(){
     }
     // take each square from our array and add it to the document
     for (let i = 0; i < playFieldArr.length; i++){
-        //! DEBUG: Populate each div square with their corresponding number
-        playFieldArr[i].innerText = i
-        //! DEBUG 
+        // //! DEBUG: Populate each div square with their corresponding number
+        // playFieldArr[i].innerText = i
+        // //! DEBUG 
         playfieldID.appendChild(playFieldArr[i])
     }
 }
